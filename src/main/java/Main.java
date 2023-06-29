@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        RomanToInteger test = new RomanToInteger();
-        System.out.println(test.romanToInt("MCMXCIV"));
+        LongestCommonPrefix test = new LongestCommonPrefix();
+        String[] arg = {"dog","racecar","car"};
+        System.out.println(test.longestCommonPrefix(arg));
     }
 }
